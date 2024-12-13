@@ -1,0 +1,14 @@
+/* 
+    Lecture note example - Classes
+*/
+import pkg.*;
+import java.util.*;
+
+class starter{
+    public static void main(String args[]) {
+        Potato fry = new Potato();
+        boolean x = fry.getEdibility();
+        Potato sp = new Potato("blue","baked",100);
+        System.out.println(sp.getEdibility());
+	}
+}
